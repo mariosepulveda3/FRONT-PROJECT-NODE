@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./editBand.js" defer></script>
+    <link rel="stylesheet" href="./editBand.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="../bands.html">Inicio</a>
+      <a href="../createAlbum/createAlbum.html">Crear Album</a>
+      <a href="../createBand/createBand.html">Editar Banda</a>
+      <a href="./deleteBand.html">Eliminar Banda</a>
+    </nav>
+    <main>
+      <h1>Editar Banda</h1>
+      <div class="formItem">
+        <label>Nombre: </label>
+        <input type="text" class="name" />
+      </div>
+      <div class="formItem">
+        <label>Imagen (url): </label>
+        <input type="text" class="img" />
+      </div>
+      <div class="formItem">
+        <label>Genero: </label>
+        <input type="text" class="genre" />
+      </div>
+      <div class="formItem">
+        <label>Origen: </label>
+        <input type="number" class="origin" />
+      </div>
+      <div class="formItem">
+        <label>Fundado: </label>
+        <input type="text" class="founded" />
+      </div>
+      <div class="formItem">
+        <label>Activo: </label>
+        <input type="text" class="currentlyActive" />
+      </div>
+      <div class="formItem">
+        <label>Miembros: </label>
+        <input type="text" class="members" />
+      </div>
+      <div class="formItem">
+        <label>Ex-miembros: </label>
+        <input type="text" class="exMembers" />
+      </div>
+      <button class="send">Crear nueva banda</button>
+    </main>
+  </body>
+</html>
