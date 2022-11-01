@@ -1,6 +1,7 @@
 body {
     padding: 50px 70px;
-    background-color: rgba(116, 116, 116, 0.866);
+    background-color: #090f09;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
 }
 
 .gets {
