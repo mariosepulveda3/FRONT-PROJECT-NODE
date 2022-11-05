@@ -1,54 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
 body {
-    padding: 50px 70px;
-    background-color: #090f09;
-    background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-.gets {
-    padding-top: 50px;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-evenly;
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  padding-inline: 100px;
+  font-family: "Lato", sans-serif;
+  background-color: #000000ee;
+  background-image: url("https://png.pngtree.com/background/20220726/original/pngtree-rock-and-roll-music-seamless-pattern-picture-image_1810118.jpg");
 }
 
-.album {
-    width: 300px;
-    height: 300px;
-    margin: 50px;
+.container-logo {
+  background-color: black;
+  text-align: center;
+  padding-block: 10px;
+  border-bottom: solid rgba(183, 72, 72, 0.995);
 }
 
-img {
-    width: 100%;
-    height: 100%;
-    border: solid whitesmoke;
-}
-
-h3 {
-    font-size: 20px;
-    text-align: center;
-}
-
-.albums {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-h1 {
-    font-size: 100px;
-    text-align: center;
-    color: whitesmoke;
+.logo {
+  width: 300px;
 }
 
 nav {
-    padding-block: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    border: solid whitesmoke;
+  padding-block: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.978);
 }
 
 a {
-    text-decoration: none;
-    color:brown;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+main {
+  margin-block: 20px;
+  background-color: rgba(226, 49, 49, 0.986);
+  padding-bottom: 50px;
+}
+
+.gets {
+  padding-block: 20px;
+  background-color: rgba(0, 0, 0, 0.844);
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container > img {
+  width: 80px;
+  border: none;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 20px;
+}
+
+p {
+  padding-left: 20px;
+}
+
+.albums {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.album {
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border: solid rgb(0, 0, 0);
+}
+
+h3 {
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.961);
+}
+
+h4 {
+  padding-block: 20px;
+  text-align: center;
+  color: rgba(151, 3, 3, 0.946);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h5 {
+  padding-bottom: 20px;
+  color: whitesmoke;
 }

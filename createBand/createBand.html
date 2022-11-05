@@ -1,41 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crear Banda</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CREAR BANDA</title>
+    <link
+      rel="shortcut icon"
+      href="https://i.pinimg.com/originals/95/b3/e1/95b3e17356f0fbf21ba964bd82f9b5b9.png"
+    />
     <script src="./createBand.js" defer></script>
-    <link rel="stylesheet" href="./createBand.css"/>
-</head>
-<body>
-    <nav>
-        <a href="../bands.html">Inicio</a>
-        <a href="../createAlbum/createAlbum.html">Crear Album</a>
-        <a href="../editBand/editBand.html">Editar Banda</a>
-        <a href="./deleteBand.html">Eliminar Banda</a>
+    <link rel="stylesheet" href="./createBand.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-logo">
+        <img
+          class="logo"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Classic_Rock_logo.svg/2560px-Classic_Rock_logo.svg.png"
+          alt="rock"
+        />
+      </div>
+      <nav>
+        <a href="../bands.html">BANDS</a>
+        <a href="../albums.html">ÁLBUMS</a>
+        <a href="../users/users.html">USERS</a>
       </nav>
-      <main>
+      <div class="gets">
+        <a href="../editBand/editBand.html">EDITAR BANDA</a>
+        <a href="">BUSCAR BANDA</a>
+        <a href="">ELIMINAR BANDA</a>
+      </div>
+    </header>
+    <main>
+      <div class="container">
         <h1>Crear Nueva Banda</h1>
+        <img
+          src="https://i.pinimg.com/originals/95/b3/e1/95b3e17356f0fbf21ba964bd82f9b5b9.png"
+          alt="logopua"
+        />
+      </div>
+      <div class="formulario">
         <div class="formItem">
           <label>Nombre: </label>
-          <input type="text" class="name" />
+          <input type="text" class="name" placeholder="Requerido"/>
         </div>
         <div class="formItem">
           <label>Imagen (url): </label>
-          <input type="text" class="img" />
+          <input type="text" class="img" placeholder="Requerido"/>
         </div>
         <div class="formItem">
           <label>Genero: </label>
-          <input type="text" class="genre" />
+          <input type="text" class="genre" placeholder="Requerido"/>
         </div>
         <div class="formItem">
           <label>Origen: </label>
-          <input type="number" class="origin" />
+          <input type="text" class="origin" />
         </div>
         <div class="formItem">
           <label>Fundado: </label>
-          <input type="text" class="founded" />
+          <input type="text" class="founded" placeholder="Requerido"/>
         </div>
         <div class="formItem">
           <label>Activo: </label>
@@ -46,10 +70,20 @@
           <input type="text" class="members" />
         </div>
         <div class="formItem">
-          <label>Ex-miembros: </label>
+          <label>Ex-Miebros: </label>
           <input type="text" class="exMembers" />
         </div>
-        <button class="send">Crear nueva banda</button>
-      </main> 
-</body>
+        <button class="send">Crear nueva banda!</button>
+      </div>
+    </main>
+    <footer>
+      <h4>Created by:</h4>
+      <div class="footer">
+        <h5>Mario Sepúlveda</h5>
+        <h5>Yago Casas</h5>
+        <h5>Edward Mosquera</h5>
+        <h5>Raul C.</h5>
+      </div>
+    </footer>
+  </body>
 </html>
